@@ -1,0 +1,29 @@
+---
+layout: home
+---
+
+<header class="home-header grey">
+  <div class="home-header-content wrapper">
+    {% for header in site.index %}
+      <div class="profile-image"><img src="https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/8/005/05b/30b/07f6464.jpg" /img></div>
+      <div class="profile-text">
+        <h1>MindRenee</h1>
+        <h2>My Profile</h2>
+      </div>
+    {% endfor %}
+  </div>
+</header>
+
+<div class="page-content">
+  <div class="wrapper">
+    <div class="home">
+      <div class="post">
+        {% for index in site.index %}
+          <article class="post-content">
+            {{ index.content | markdownify }}
+          </article>
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+</div>

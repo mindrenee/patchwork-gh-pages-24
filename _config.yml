@@ -3,7 +3,7 @@ title: Renee's Profile
 email: hello@wheelhouse.io
 description: > # this means to ignore newlines until "baseurl:"
   Learn to use GitHub pages with Wheelhouse.io and Patchwork!
-baseurl: "/project-gh-page-24"
+baseurl: "/patchwork-gh-pages-24"
 url: "http://mindrenee.github.io"
 github_username:  mindrenee
 permalink: /blog/:year/:title/
